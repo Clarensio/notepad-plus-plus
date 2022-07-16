@@ -1,6 +1,6 @@
 <?xml version = "1.0" encoding = "utf-8" ?>
 <!--
-    Italian translation for Notepad++ 8.2.1
+    Italian translation for Notepad++ 8.4.4
     Last modified Mon, January 10th, 2022.
     For updates, see https://github.com/notepad-plus-plus/notepad-plus-plus/tree/master/PowerEditor/installer/nativeLang
 -->
@@ -366,6 +366,15 @@
                     <Item id="42041" name="Pulisci elenco file recenti"/>
                     <Item id="48016" name="Modifica scorciatoie/Elimina macro..."/>
                     <Item id="48017" name="Modifica scorciatoie/Elimina comando..."/>
+                    <Item id="11001" name="&amp;Windows..."/>
+                    <Item id="11002" name="Nome A a Z"/>
+                    <Item id="11003" name="Nome Z a A"/>
+                    <Item id="11004" name="Percorso A a Z"/>
+                    <Item id="11005" name="Percorso Z a A"/>
+                    <Item id="11006" name="Tipo A a Z"/>
+                    <Item id="11007" name="Tipo Z a A"/>
+                    <Item id="11008" name="Dimensione Piccolo a Grande"/>
+                    <Item id="11009" name="Size Grande a Piccolo"/>
                 </Commands>
             </Main>
             <Splitter>
@@ -539,7 +548,8 @@
                     <Item id="2230" name="Abilita stile globale per il grassetto"/>
                     <Item id="2231" name="Abilita stile globale per il corsivo"/>
                     <Item id="2232" name="Abilita stile globale per il sottolineato"/>
-                </SubDialog>
+                     <Item id="2234" name="Vai alle impostazioni"/>
+               </SubDialog>
             </StyleConfig>
 
             <ShortcutMapper title="Tasti di scelta rapida">
@@ -637,6 +647,14 @@
                     <Item id="44107" name="Passa a Cartella come Workspace"/>
                     <Item id="44109" name="Passa a Elenco Documenti"/>
                     <Item id="44108" name="Passa a Elenco Funzioni"/>
+                    <Item id="11002" name="Ordina Per Nome A a Z"/>
+                    <Item id="11003" name="Ordina Per Nome Z a A"/>
+                    <Item id="11004" name="Ordina Per Percorso A a Z"/>
+                    <Item id="11005" name="Ordina Per Percorso Z a A"/>
+                    <Item id="11006" name="Ordina Per Tipo A a Z"/>
+                    <Item id="11007" name="Ordina Per Tipo Z a A"/>
+                    <Item id="11008" name="Ordina Per Dimensione Piccolo a Grande"/>
+                    <Item id="11009" name="Ordina Per Size Grande a Piccolo"/>
                 </MainCommandNames>
             </ShortcutMapper>
             <ShortcutMapperSubDialg title="Scelta rapida">
@@ -857,6 +875,7 @@
                     <Item id="6219" name="Velocità:"/>
                     <Item id="6221" name="V"/>
                     <Item id="6222" name="L"/>
+                    <Item id="6246" name="Rendi attivabili/disattivabili i comandi di piegatura/spiegamento del livello correntee"/>
                     <Item id="6225" name="Abilita Selezione Multipla (Ctrl+clic/selezione)"/>
                     <Item id="6227" name="A Capo Automatico"/>
                     <Item id="6228" name="Predefinito"/>
@@ -867,6 +886,16 @@
                     <Item id="6215" name="Abilita l&apos;arrotondamento dei caratteri"/>
                     <Item id="6236" name="Abilita scorrimento oltre l&apos;ultima riga"/>
                     <Item id="6239" name="Mantieni la selezione quando clicchi con il tasto destro fuori da essa"/>
+                    <Item id="6245" name="Abilita spazio virtuale"/>
+                    <Item id="6651" name="Indicatore di linea corrente"/>
+                    <Item id="6652" name="Nessuno"/>
+                    <Item id="6653" name="Evidenzia Sfondo"/>
+                    <Item id="6654" name="Contorno"/>
+                    <Item id="6655" name="Larghezza"/>
+                    <Item id="6247" name="EOL (CRLF)"/> <!-- Don't translate "(CRLF)" -->
+                    <Item id="6248" name="Default"/>
+                    <Item id="6249" name="Testo Normale"/>
+                    <Item id="6250" name="Colore Personalizzato"/>
                 </Scintillas>
 
                <DarkMode title="Modalità scura">
@@ -890,6 +919,7 @@
                     <Item id="7124" name="Bordo"/>
                     <Item id="7125" name="Indirizzo internet"/>
                     <Item id="7130" name="Ripristina"/>
+                    <Item id="7135" name="Toni"/>
                </DarkMode>
 
                 <MarginsBorderEdge title="Margini e Bordi">
@@ -998,6 +1028,15 @@ Puoi indicare serie di delimitatori di colonna usando degli spazi per separare i
                     <Item id="6721" name="Sezione centrale"/>
                     <Item id="6722" name="Sezione di destra"/>
                     <Item id="6723" name="Aggiungi"/>
+                    <ComboBox id="6724">
+                        <Element name="Nome File e Percorso completi"/>
+                        <Element name="Nome File"/>
+                        <Element name="Cartella del File"/>
+                        <Element name="Pagina"/>
+                        <Element name="Formato data breve"/>
+                        <Element name="Formato data esteso"/>
+                        <Element name="Ora"/>
+                    </ComboBox>
                     <Item id="6725" name="Variabile:"/>
                     <Item id="6727" name="Seleziona parte"/>
                     <Item id="6728" name="Intestazione E Piè Di Pagina"/>
@@ -1009,6 +1048,7 @@ Puoi indicare serie di delimitatori di colonna usando degli spazi per separare i
                     <Item id="6903" name="La finestra di ricerca rimane aperta dopo ricerche inviate alla finestra dei risultati"/>
                     <Item id="6904" name="Chiedi conferma prima di sostituire tutto in tutti i documenti"/>
                     <Item id="6905" name="Sostituisci: senza spostamento alla corrispondenza successiva"/>
+                    <Item id="6906" name="Finestra Risultati ricerca: mostra solo una voce per riga trovata"/>
                 </Searching>
 
                 <RecentFilesHistory title="File recenti">
